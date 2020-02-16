@@ -1,0 +1,60 @@
+.form-control {
+	background-color: rgba(255, 255, 255, 0.05);
+	color: #fff;
+}
+.form-control:active, .form-control:focus {
+	border-color: #f96868;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+select option {
+	background-color: #262c32!important;
+	font-size: 11px;
+}
+.icon:hover {
+	color: #e9595b!important;
+    transition: box-shadow .25s linear,border .25s linear,color .25s linear,background-color .25s linear;
+}
+.alert-danger {
+    color: #ffffff;
+    background-color: rgba(119, 40, 40, 0.43);
+    border-color: #ffeaea;
+}
+.alert-success {
+    color: #ffffff;
+    background-color: rgba(11, 133, 82, 0.32);
+    border-color: #ffeaea;
+}
+.alert-warning {
+    color: #ffffff;
+    background-color: rgba(174, 112, 44, 0.29);
+    border-color: #fff3e6;
+}
+.alert-info {
+    color: #ffffff;
+    background-color: rgba(26, 85, 128, 0.54);
+    border-color: #ecf9fa;
+}
+body {
+	font-family: Oswald;
+}
+.dr-ul {
+    padding: 0 1em;
+    list-style: none;
+}
+.dr-ul li:before {
+    content: "»";
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    position: relative;
+    color: #e9595b!important;
+}
+.dr-info-box{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.17);
+    border-color: #585858;
+}
+a {
+    color: #fff!important;
+}
